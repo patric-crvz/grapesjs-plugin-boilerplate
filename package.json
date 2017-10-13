@@ -1,8 +1,8 @@
 {
-  "name": "grapesjs-plugin-boilerplate",
-  "version": "0.0.1",
-  "description": "GrapesJS Plugin Boilerplate",
-  "main": "dist/grapesjs-plugin.min.js",
+  "name": "grapesjs-slick",
+  "version": "0.0.3",
+  "description": "GrapesJS Slick",
+  "main": "dist/grapesjs-slick.min.js",
   "scripts": {
     "lint": "eslint src",
     "v:patch": "npm version --no-git-tag-version patch",
@@ -15,7 +15,7 @@
     "boilerplate",
     "wysiwyg"
   ],
-  "author": "Artur Arseniev",
+  "author": "Patrick Crvz",
   "license": "BSD-3-Clause",
   "devDependencies": {
     "babel-core": "^6.25.0",

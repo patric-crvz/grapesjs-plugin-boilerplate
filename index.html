@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>GrapesJS Plugin</title>
+    <title>GrapesJS Slick</title>
     <link rel="stylesheet" href="./node_modules/grapesjs/dist/css/grapes.min.css">
 
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/grapesjs/dist/grapes.min.js"></script>
-    <script src="./dist/grapesjs-plugin.min.js"></script>
+    <script src="./dist/grapesjs-slick.min.js"></script>
     <style>
       body,
       html {
@@ -28,11 +28,8 @@
         storageManager:{autoload: 0},
         container : '#gjs',
         fromElement: true,
-
-        plugins: ['YOUR-PLUGIN-NAME'],
-        pluginsOpts: {
-          'YOUR-PLUGIN-NAME': {}
-        }
+        plugins: ['grapesjs-slick'],
+        //pluginsOpts: {}
       });
       window.editor = editor;
     </script>

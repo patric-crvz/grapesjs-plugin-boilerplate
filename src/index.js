@@ -1,11 +1,27 @@
-import loadComponents from './components';
 import loadBlocks from './blocks';
+import loadComponents from './components';
+import {
+  hNavbarRef
+} from './consts';
 
-export default grapesjs.plugins.add('YOUR-PLUGIN-NAME', (editor, opts = {}) => {
+export default grapesjs.plugins.add('grapesjs-slick', (editor, opts = {}) => {
   let config = opts;
 
   let defaults = {
-    // default options
+    blocks: [hNavbarRef],
+    defaultStyle: 1,
+    navbarClsPfx: 'navbar',
+    labelNavbar: 'S Carousel',
+    labelNavbarContainer: 'Carousel Container',
+    labelMenu: 'Navbar Menu',
+    labelMenuLink: 'Menu link',
+    labelBurger: 'Burger',
+    labelBurgerLine: 'Burger Line',
+    labelNavbarBlock: 'S Carousel',
+    labelNavbarCategory: 'Extra',
+    labelHome: 'Home',
+    labelAbout: 'About',
+    labelContact: 'Contact',
   };
 
   // Load defaults
